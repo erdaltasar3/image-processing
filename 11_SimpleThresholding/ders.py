@@ -17,3 +17,8 @@ for i in range(6):
     plt.subplot(2,3,i+1),plt.imshow(resimler[i],"gray"),plt.title(basliklar[i])
     
 plt.show()
+
+"""
+myResult = cv2.inRange(img,100,130)
+cv2.imshow("esikleme", myResult)
+"""
